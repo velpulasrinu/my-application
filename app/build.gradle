@@ -5,7 +5,7 @@ plugins {
 android {
     namespace 'com.example.myapplication'
     compileSdk 32
-
+    buildToolsVersion "21.0.1"
     defaultConfig {
         applicationId "com.example.myapplication"
         minSdk 21
