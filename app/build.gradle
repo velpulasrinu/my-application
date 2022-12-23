@@ -27,15 +27,6 @@ android {
         targetCompatibility JavaVersion.VERSION_1_8
     }
 }
-
-repositories {
-  jcenter()
-  mavenCentral()
-    // Use 'jcenter' for resolving your dependencies.
-    // You can declare any Maven/Ivy/file repository here.
-    
-}
-
 dependencies {
 
     implementation 'androidx.appcompat:appcompat:1.4.1'
