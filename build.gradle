@@ -2,4 +2,29 @@
 plugins {
     id 'com.android.application' version '7.3.1' apply false
     id 'com.android.library' version '7.3.1' apply false
+    id "org.sonarqube" version "3.3"
+}
+
+repositories {
+  mavenCentral()
+    // Use 'jcenter' for resolving your dependencies.
+    // You can declare any Maven/Ivy/file repository here.
+    // jcenter()
+}
+
+dependencies {
+    testImplementation 'junit:junit:4.12'
+    implementation 'junit:junit:4.12'
+}
+sourceSets {
+//     main {
+//         java {
+//             srcDir 'main'
+//         }
+//     }
+    test {
+        java {
+            srcDir 'test'
+        }
+    }
 }
