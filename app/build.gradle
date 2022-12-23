@@ -5,7 +5,7 @@ plugins {
 android {
     namespace 'com.example.myapplication'
     compileSdk 32
-    buildToolsVersion "21.0.1"
+    buildToolsVersion "31.0.0"
     defaultConfig {
         applicationId "com.example.myapplication"
         minSdk 21
@@ -26,6 +26,14 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+}
+
+repositories {
+  jcenter()
+  mavenCentral()
+    // Use 'jcenter' for resolving your dependencies.
+    // You can declare any Maven/Ivy/file repository here.
+    
 }
 
 dependencies {
