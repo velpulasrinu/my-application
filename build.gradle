@@ -5,15 +5,4 @@ plugins {
     id "org.sonarqube" version "3.3"
 }
 
-sourceSets {
-//     main {
-//         java {
-//             srcDir 'main'
-//         }
-//     }
-    test {
-        java {
-            srcDir 'test'
-        }
-    }
-}
+
