@@ -5,13 +5,6 @@ plugins {
     id "org.sonarqube" version "3.3"
 }
 
-repositories {
-  mavenCentral()
-    // Use 'jcenter' for resolving your dependencies.
-    // You can declare any Maven/Ivy/file repository here.
-    // jcenter()
-}
-
 dependencies {
     testImplementation 'junit:junit:4.12'
     implementation 'junit:junit:4.12'
